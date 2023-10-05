@@ -1,3 +1,7 @@
+# Nextjs Intoduction
+
+- 2023-09-26 : first created
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

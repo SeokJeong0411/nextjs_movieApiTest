@@ -1,0 +1,7 @@
+.navImg {
+  max-width: 100px;
+  margin-bottom: 5px;
+}
+.active {
+  color: tomato;
+}
