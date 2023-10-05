@@ -15,12 +15,14 @@ export default async function Movies() {
     <div className={styles.container}>
       {!movies.length && <h4>Loading...</h4>}
       {movies.map((movie) => (
-        <Link key={movie.id} href={`/movie/${movie.id}`}>
-          <div className={styles.movie}>
+        <div key={movie.id} className={styles.movie}>
+          <Link href={`/movie/${movie.id}`}>
             <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
+          </Link>
+          <Link href={`/movie/${movie.id}`}>
             <h4>{movie.original_title}</h4>
-          </div>
-        </Link>
+          </Link>
+        </div>
       ))}
     </div>
   );

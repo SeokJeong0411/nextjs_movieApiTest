@@ -1,6 +1,16 @@
 # Nextjs Intoduction
 
+### 첫 NextJS 사용
+
+### 기본 사용법 익히기 및 영화 API 호출
+
+### 강의영상은 아래를 보았고, DOCS를 통해 migration 해가며 진행
+
+- 강의 : [NextJS 시작하기](https://nomadcoders.co/nextjs-fundamentals)
+- DOCS : https://nextjs.org/docs
+
 - 2023-09-26 : first created
+- 2023-10-05 : git upload
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
