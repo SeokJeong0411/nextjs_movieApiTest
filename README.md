@@ -9,8 +9,11 @@
 - 강의 : [NextJS 시작하기](https://nomadcoders.co/nextjs-fundamentals)
 - DOCS : https://nextjs.org/docs
 
+후기 : Page 라우터 방식을 App 라우터 방식으로 마이그레이션 해가며 진행했는데, 단순히 라우팅 구조 뿐만 아니라 내부 함수도 변경된 사항이 많아서 쉽지 않았음. "use client" 라고 최상위에 적어서 직접 클라이언트 사이드 렌더링과 서버 사이드 렌더링을 구분해 주어야 했으며, 각각의 렌더링 방식에 따라 사용할 수 있고 없는 것이 구분되어 있었음. useRouting에서 as를 통해 마스킹하는 부분은 마이그레이션이 불가능 했음. 
+
 - 2023-09-26 : first created
 - 2023-10-05 : git upload
+- 2023-10-06 : finish
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
